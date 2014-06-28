@@ -1,0 +1,34 @@
+{
+  "name": "flocks",
+  "version": "0.1.0",
+  "description": "Client library for Flocks API",
+  "main": "./lib/flocks.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tim-smart/node-flocks.git"
+  },
+  "keywords": [
+    "flocks",
+    "api"
+  ],
+  "author": "Tim Smart <tim@fostle.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tim-smart/node-flocks/issues"
+  },
+  "homepage": "https://github.com/tim-smart/node-flocks",
+  "dependencies": {
+    "backbone": "^1.1.2",
+    "oop-utils": "^0.2.2",
+    "request": "^2.36.0",
+    "underscore": "^1.6.0"
+  },
+  "devDependencies": {
+    "jscs": "git://github.com/tim-smart/node-jscs.git#require-single-space-before-operators",
+    "jshint": "^2.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "ln -sf '../../hooks/pre-commit' .git/hooks/pre-commit"
+  }
+}
